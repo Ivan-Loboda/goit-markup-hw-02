@@ -51,6 +51,11 @@ h3 {
   font-size: 14px;
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -121,6 +126,7 @@ h3 {
 
 .article h3 {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .gallery h2 {
@@ -177,19 +183,40 @@ h3 {
 }
 
 .cards p {
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
 }
+
+.portfolio-nav .button {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portfolio-nav .button.current {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+.portfolio-nav .button:active {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
 /* -----footer----- */
 .footer {
   background-color: var(--secondary-background-color);
   color: var(--secondary-text-color);
 }
 
+.footer p {
+  font-style: normal;
+}
+
 .footer .adress {
   font-weight: 400;
   font-style: normal;
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 60%);
 }
 
 .footer .logo {
@@ -199,15 +226,4 @@ h3 {
 .footer .adress:hover,
 .footer .adress:focus {
   color: var(--accent-color);
-}
-
-.portfolio-nav .button {
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-}
-
-.portfolio-nav .button:active {
-  background-color: var(--accent-color);
-  color: var(--secondary-text-color);
 }
