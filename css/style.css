@@ -53,7 +53,6 @@ h3 {
 
 .site-nav .link.current {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 .link:hover,
@@ -126,6 +125,7 @@ h3 {
 
 .article h3 {
   font-weight: 700;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
